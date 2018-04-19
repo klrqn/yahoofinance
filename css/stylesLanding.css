@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	text-align: center;	
+	text-align: center;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
 }
@@ -9,12 +9,17 @@ body {
 	background-color: #2d1152;
 }
 
+.feedback {
+	width: 450px;
+	height: 40px;
+}
 a {
 	color: white !important;
 }
 
 a:hover {
 	background-color: green;
+	font-weight: bold;
 }
 
 i {
@@ -58,4 +63,10 @@ li {
 
 .SandP {
 	width: 50% !important;
+	float: center;
 }
+
+#secret {
+
+}
+

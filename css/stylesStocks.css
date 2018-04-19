@@ -1,9 +1,13 @@
 body {
 	background-color: #ddd;
-	text-align: center;	
+	text-align: center;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
 	padding: 30px;
+}
+
+#purpleOK {
+	color: purple;
 }
 
 .navbar {

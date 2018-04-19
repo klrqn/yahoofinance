@@ -7,6 +7,7 @@
 		<link rel="icon" type="image/svg" href="img/tablet-alt.svg"/>
 	</head>
 	<body>
+
 		<nav class="navbar navbar-expand-lg" id="top-nav" />
 			<div class="container text-center" style="color: white; text-align: center;">
 				<div class="col-sm">
@@ -55,3 +56,18 @@
 			</ul>
 			</div>
 		</section>
+		<form>
+			<input type="textbox" class="feedback" name="feedback" placeholder="enter feedback here"/>
+			<button id="button" type="button" value="send" class="btn btn-primary" onClick="myFunction();">Submit</button>
+		</form>
+		<p id="wrong" style="color: red"></p>
+		<button id="secret">secret page!</button>
+		<script>
+			function myFunction() {
+			    // alert("just kidding");
+			    document.getElementById("wrong").textContent = 'haha just kidding';
+			    // document.getElementsByClassName("feedback") = null;
+			}
+		</script>
+	</body>
+</html>
